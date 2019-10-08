@@ -1,0 +1,6 @@
+Advantages of ARM:
+	1.Readable code & Simple to write.
+	2.Automatic resource management.
+	3.No need of finally block just to close the resources.
+	4.We can open multiple resources in try-with-resources statement separated by a semicolon. 
+	5.Number of lines of code is reduced.
