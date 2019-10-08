@@ -17,7 +17,7 @@ public class AutoMaticResourceManagement {
         br.close();
         
         //If exception occured at str.replace(" ","") line, resource will not be closed.
-        //If the same request comes N times, then we will end up with Out of Memeory Error.
+        //If the same request comes N times, then we will end up with Out of Memory Error.
     }
 }
 
@@ -31,6 +31,6 @@ class ResourceAutocloseable{
             str.replace(" ","");
         }
         
-        //Even if exception occured at str.replace(" ","") line, resource will not be closed.
+        //Even if exception occured at str.replace(" ","") line, resource will be closed.
     }
 }
